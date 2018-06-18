@@ -1,19 +1,35 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 //import logo from './logo.svg';
+
+import Header from './components/headerComponent/header';
+import Footer from './components/footerComponent/footer';
 import './App.css';
+import Home from './components/pages/home';
+import Resources from './components/pages/resources';
+import Blog from './components/pages/blog';
+import Tipline from './components/pages/tipline';
+import Contact from './components/pages/contact';
 
 class App extends Component {
   render() {
     return (
+      <Router>
       <div className="App">
-        {/* <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header> */}
+        <Header />
+
+         <Route exact path='/' component={Home} />
+         <Route exact path='/resources' component={Resources} />
+         <Route exact path='/blog' component={Blog} />
+         <Route exact path='/tipline' component={Tipline} />
+         <Route exact path='/contact' component={Contact} />
+
+         <Footer />
+
         <h1 className="App-intro">
-          Here is where the front-end of our app will live
         </h1>
       </div>
+      </Router>
     );
   }
 }
