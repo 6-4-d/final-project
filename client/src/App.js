@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-//import logo from './logo.svg';
+
 
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
@@ -25,9 +25,6 @@ class App extends Component {
          <Route exact path='/contact' component={Contact} />
 
          <Footer />
-
-        <h1 className="App-intro">
-        </h1>
       </div>
       </Router>
     );
