@@ -7,14 +7,11 @@ class Resources extends Component {
         <div className="wrapper">
           <div className="bender-resources">
             <div className="bender-resources-quote">
-            <p>As a survivor of sex trafficking in America, I can't begin to tell you how often victims are misidentified. We are not in a third world country, so trafficking is going to look very different today in our modern, developed society. Misidentification and learning the signs are crucial to help victims get out of sexual exploitation. Because I was never handcuffed to a bed like the media portrays, I thought I must not be being trafficked. I didn't fit into the stereotypical box all of us in our culture believes. I was unaware what a coercive tactic was when the man I thought was my boyfriend began his manipulation. Because of this misidentification, I never asked for help, law enforcement never noticed and my family friends believed the same lies I regurgitated to them. Many points of interception could have taken place but went un-noticed.  -  <b>Rebecca Bender • Survivor</b></p>
+            <img src=" https://s3.us-east-2.amazonaws.com/traffickwise/quote1.jpg" />
             </div>
-          <div className="resources-img">
-            
-          </div>
             </div>
            <div className="resources-list-organizations">
-            <h1>Organizations</h1><br></br>
+            <h2>Organizations</h2><br></br>
                 <ul>
                    <li><a href="http://www.gems-girls.org/" target="_blank">Gems NYC</a></li>
                    <li><a href="https://www.rescuefreedom.org/" target="_blank">Rescue Freedom International</a></li>
@@ -39,7 +36,7 @@ class Resources extends Component {
                 </ul> 
                 </div> 
                 <div className="resources-list-books">
-                  <h1>Books</h1><br></br>
+                  <h2>Books</h2><br></br>
                   <ul>
                     <li><a href="https://www.amazon.com/Roadmap-Redemption-Rebecca-Bender/dp/1482008106/ref=sr_1_1?ie=UTF8&qid=1487565123&sr=8-1&keywords=roadmap+to+redemption" target="_blank">Roadmap to Redemption</a></li>
                      <li><a href="https://www.amazon.com/Girls-Like-Us-Fighting-Memoir/dp/0061582069/ref=sr_1_1?ie=UTF8&qid=1487565145&sr=8-1&keywords=girls+like+us+rachel+lloyd" target="_blank">Girls Like Us by Rachel Lloyd</a></li>
@@ -58,7 +55,7 @@ class Resources extends Component {
                 </ul>  
              </div>
              <div className="resources-list-safehomes">
-             <h1>Safe Homes</h1><br></br>
+             <h2>Safe Homes</h2><br></br>
                   <ul>
                    <li><a href="https://www.engedirefuge.com/" target="_blank">Engedi Refugee, Washington</a></li>
                     <li><a href="https://sharedhope.org/terryshouse/" target="_blank">Terry's House, Washington</a></li>
@@ -75,7 +72,7 @@ class Resources extends Component {
                 </ul>  
             </div>
             <div className="resources-list-documentaries">
-             <h1>Documentaries</h1><br></br>
+             <h2>Documentaries</h2><br></br>
                   <ul>
                   <li><a href="http://nefariousdocumentary.com/" target="_blank">Nefarious</a></li>
                     <li><a href="https://www.imdb.com/title/tt2246924/" target="_blank">Tricked (available on Netflix</a></li>
@@ -84,7 +81,7 @@ class Resources extends Component {
                 </ul>  
             </div>
             <div className="resources-list-schoolcurriculum">
-             <h1>School Curriculum</h1><br></br>
+             <h2>School Curriculum</h2><br></br>
                   <ul>
                     <li><a href="http://www.prevention-project.org/home/" target="_blank">Prevention Project</a></li>
                     <li><a href="https://endingthegame.com/request-a-survivor-speaker/" target="_blank">Ending the Game</a></li>
@@ -92,7 +89,7 @@ class Resources extends Component {
                 </ul>  
             </div>
             <div className="resources-list-additional">
-             <h1>Additional Resources</h1><br></br>
+             <h2>Additional Resources</h2><br></br>
                   <ul>
                     <li><a href="https://www.fbi.gov/news/stories/operation-cross-country-x" target="_blank">FBI Operation Cross Country</a></li>
                     <li><a href="https://www.justice.gov/humantrafficking" target="_blank">DOJ Human Trafficking</a></li>
