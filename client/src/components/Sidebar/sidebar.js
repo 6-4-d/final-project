@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 
-
-
-class Tipline extends Component {
+class Sidebar extends Component {
   render() {
     return (
-        // <div className="wrapper">
-        <div className="wrapper-tipline">
-            <div class="cybertipline-banner">
+        <div className="tip-sidebar">
+          <div class="cybertipline-banner">
                 <article class="content-wrapper">
                    <div class="centre-body-cover">
                       <div class="header-box-cover">
@@ -25,10 +22,9 @@ class Tipline extends Component {
                           </div>
                       </article>
                     </div>
-        </div>                         
-        // </div>
+      </div>
     );
-  }
+  };
 }
 
-export default Tipline;
+export default Sidebar;

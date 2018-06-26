@@ -4,12 +4,11 @@ import React, { Component } from 'react';
 class Resources extends Component {
   render() {
     return (
+        <div className="container">
         <div className="wrapper">
           <div className="bender-resources">
-            <div className="bender-resources-quote">
-            <img src=" https://s3.us-east-2.amazonaws.com/traffickwise/quote1.jpg" />
-            </div>
-            </div>
+            <img src="https://s3.us-east-2.amazonaws.com/traffickwise/NCMECbanner.jpg" />
+          </div>
            <div className="resources-list-organizations">
             <h2>Organizations</h2><br></br>
                 <ul>
@@ -99,7 +98,7 @@ class Resources extends Component {
                 </ul>  
             </div>
           </div>
-    
+          </div>
     );
   }
 } 

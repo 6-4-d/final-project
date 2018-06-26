@@ -6,41 +6,48 @@ class Contact extends Component {
   render() {
     return (
         <div className="wrapper-contact">
+        <div className="container">
             <h5><br></br>
             If you are interested in recieving more content or educational materials please use the form below to contact us!
             </h5>
             <br></br>
+            {/* bootstrap form */}
             <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlSelect1">Example select</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlSelect2">Example multiple select</label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-            </form>    
-        </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Email</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email address" />
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Full Name</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" />
+  </div>
+  <div className="form-group">
+    <label for="exampleFormControlTextarea1">Please leave us a comment!</label>
+    <textarea className="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
+  <label class="form-check-label" for="exampleRadios1">
+    Teacher
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
+  <label class="form-check-label" for="exampleRadios2">
+    Parent
+  </label>
+</div>
+<div class="form-check disabled">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" />
+  <label class="form-check-label" for="exampleRadios3">
+    Student
+  </label>
+</div>
+<br></br>
+<button type="submit" class="btn btn-dark">Submit</button>
+</form>
+           </div>
+           </div>
     );
   }
 }
