@@ -12,39 +12,39 @@ class Contact extends Component {
             </h5>
             <br></br>
             {/* bootstrap form */}
-            <form>
-  <div class="form-group">
-    <label for="formGroupExampleInput">Email</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email address" />
-  </div>
-  <div class="form-group">
-    <label for="formGroupExampleInput">Full Name</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" />
+            <form action="contactform.php" method="post">
+  <div className="form-group">
+    <label className="formGroupExampleInput">Email</label>
+    <input type="text" name="mail" className="form-control" id="formGroupExampleInput" placeholder="Email address" required />
   </div>
   <div className="form-group">
-    <label for="exampleFormControlTextarea1">Please leave us a comment!</label>
-    <textarea className="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+    <label className="formGroupExampleInput">Full Name</label>
+    <input type="text" name="name" className="form-control" id="formGroupExampleInput" placeholder="Name" required />
   </div>
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
-  <label class="form-check-label" for="exampleRadios1">
+  <div className="form-group">
+    <label className="exampleFormControlTextarea1">Please leave us a comment!</label>
+    <textarea className="form-control" name="message" id="exampleFormControlTextarea1" rows="7" required></textarea>
+  </div>
+  <div className="form-check">
+  <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
+  <label className="form-check-label" className="exampleRadios1">
     Teacher
   </label>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
-  <label class="form-check-label" for="exampleRadios2">
+<div className="form-check">
+  <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
+  <label className="form-check-label" className="exampleRadios2">
     Parent
   </label>
 </div>
-<div class="form-check disabled">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" />
-  <label class="form-check-label" for="exampleRadios3">
+<div className="form-check disabled">
+  <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" />
+  <label className="form-check-label" className="exampleRadios3">
     Student
   </label>
 </div>
 <br></br>
-<button type="submit" class="btn btn-dark">Submit</button>
+<button type="submit" className="btn btn-dark">Submit</button>
 </form>
            </div>
            </div>
