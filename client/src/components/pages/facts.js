@@ -7,7 +7,7 @@ class Facts extends Component {
     return (
         <div className="container">
              <div className="heretoo-img">
-                <img src="https://s3.us-east-2.amazonaws.com/traffickwise/heretoo.jpg" /><br></br><br></br>
+                <img src="https://s3.us-east-2.amazonaws.com/traffickwise/heretoo.jpg" alt="here too" /><br></br><br></br>
               </div> 
           <div className="facts-content">
           
@@ -15,7 +15,7 @@ class Facts extends Component {
             <p> In recent years, the plight of human trafficking victims has received a great deal of attention among legislators, social service providers and the popular press. However, as society begins to learn more about the growing problem of domestic trafficking, some questions remain, including even the most basic question: How many people are currently being victimized by trafficking right here in the U.S.? <br></br><br></br>
 
             Answering this question is not an easy task, because victims are often reluctant to come forward and seek help. This reluctance is partly because perpetrators frequently convince their victims that if they attempt to seek help, no one will believe them; instead they will be thought of as criminals or prostitutes. Additionally, a lack of any central system to identify and count victims of trafficking leaves policy makers with inaccurate data making it difficult to budget and promote appropriate public policy.</p>
-            <p>Here’s what we do know:</p>
+            <h4>Here’s what we do know:</h4>
             <ul>
                 <li>Homeless and runaway youth are the preferred targets of traffickers.</li>
                 <li>A 2013 Fordham University study found that lack of shelter and not having a caring adult in their lives were the main factors that led our youth into the hands of traffickers; people who offered false promises of friendship, a safe place to stay, and love, only to wait until they gained the youth’s trust before enslaving them in sexual servitude.</li>
@@ -40,12 +40,11 @@ class Facts extends Component {
             </ul>
             <br></br>
             <br></br>
-
-
-            
-
+            <div className="homeless-img">
+            <img src="https://s3.us-east-2.amazonaws.com/traffickwise/homeless.jpg" alt="homeless" />
+            </div>
          </div>
-         </div>
+      </div>
     );
   }
 }
